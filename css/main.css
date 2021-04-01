@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;900&display=swap");
+.container {
+  display: flex;
+  width: 1170px;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #ffffff;
+  height: 99px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  width: 187px;
+}
+
+.logo__img {
+  height: 46px;
+  width: 54px;
+  margin: 25px 17px 28px 29px;
+}
+
+.logo__text {
+  font-size: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  width: 109px;
+}
+
+.logo__text_upper {
+  margin-top: 25px;
+}
+
+.logo__text_bold {
+  font-weight: 900;
+  color: #003d48;
+}
+
+.logo__text_thin {
+  color: #f77462;
+  font-weight: 300;
+}
+
+.logo__text_lower {
+  font-size: 14px;
+  font-weight: 400;
+  color: #929292;
+  margin-bottom: 32px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__item {
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  font-size: 16px;
+  margin: 43px 28px 45px 0px;
+}
+
+.menu__item:after {
+  content: "|";
+  font-family: "Source Sans Pro";
+  font-weight: 200;
+  color: #e7e7e7;
+  padding-left: 28px;
+  margin: 0;
+}
+
+.menu__item:nth-last-of-type(1):after {
+  content: "";
+  padding-left: 0;
+}
+
+.menu__item:nth-last-of-type(1) {
+  margin: 43px 32px 45px 0px;
+}
+
+.menu__item_blue {
+  color: #6dc5dd;
+}
+
+.menu__item_gray {
+  color: #787878;
+}
+
+.mobile {
+  display: flex;
+  background-color: #ebebeb;
+  width: 1170px;
+}
+
+.mobile__img {
+  height: 348px;
+  width: 380px;
+  margin: 51px 51px 0px 102px;
+}
+
+.mobile__text {
+  color: #003d48;
+  font-family: "Source Sans Pro";
+  width: 465px;
+  margin: 91px 120px 77px 105px;
+}
+
+.mobile__text_thin {
+  color: #003d48;
+  font-family: "Source Sans Pro Light";
+  font-size: 31px;
+  font-weight: 300;
+}
+
+.mobile__text_bold {
+  margin-block-start: 12px;
+  margin-block-end: 20px;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro Black";
+  font-size: 38px;
+}
+
+.mobile__text_gray {
+  color: #8b8b8b;
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+.mobile__button {
+  text-transform: uppercase;
+  background-color: #f77462;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  color: #ffffff;
+  border: unset;
+  width: 129px;
+  height: 44px;
+  border-radius: 3px;
+  margin-top: 18px;
+}
